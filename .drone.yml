@@ -6,6 +6,6 @@ pipeline:
       - npm test
   publish:
     image: plugins/docker
-    repo: drone/node-demo
+    repo: sakthik26/node-demo
     secrets: [ docker_username, docker_password ]
-    dry_run: true # remove this to publish
+#     dry_run: true # remove this to publish
